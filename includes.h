@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+#include <vector>
+#include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
+#include <SFML/Audio.hpp>
+#include <SFML/Network.hpp>
+#include "gameManager.h"
+#include "windowManager.h"
+#include "eventManager.h"
+#include "loadTextures.h"
+#include "spriteManager.h"
+#include "levelManager.h"
+#include "stateManager.h"

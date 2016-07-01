@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="life" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/life" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/life" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++0x" />
+			<Add directory="C:/Source/SFML-2.3.2/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add library="sfml-audio" />
+			<Add library="sfml-network" />
+			<Add directory="C:/Source/SFML-2.3.2/build-6-23-16/lib" />
+		</Linker>
+		<Unit filename="include/decisionManager.h" />
+		<Unit filename="include/eventManager.h" />
+		<Unit filename="include/gameManager.h" />
+		<Unit filename="include/soundManager.h" />
+		<Unit filename="include/windowManager.h" />
+		<Unit filename="includes.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/decisionManager.cpp" />
+		<Unit filename="src/eventManager.cpp" />
+		<Unit filename="src/gameManager.cpp" />
+		<Unit filename="src/soundManager.cpp" />
+		<Unit filename="src/windowManger.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
